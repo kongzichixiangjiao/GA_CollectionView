@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC57631F1D0FDBD3001E02EA /* WaterFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC57631E1D0FDBD3001E02EA /* WaterFlowLayout.swift */; };
+		DC5763211D0FF676001E02EA /* InfinitLoopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5763201D0FF676001E02EA /* InfinitLoopViewController.swift */; };
+		DC5763231D0FF6F0001E02EA /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5763221D0FF6F0001E02EA /* ImageCell.swift */; };
+		DC5763251D0FF723001E02EA /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC5763241D0FF723001E02EA /* ImageCell.xib */; };
+		DC57632B1D0FF7E2001E02EA /* 001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC5763261D0FF7E1001E02EA /* 001.jpg */; };
+		DC57632C1D0FF7E2001E02EA /* 002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC5763271D0FF7E2001E02EA /* 002.jpg */; };
+		DC57632D1D0FF7E2001E02EA /* 003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC5763281D0FF7E2001E02EA /* 003.jpg */; };
+		DC57632E1D0FF7E2001E02EA /* 004.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC5763291D0FF7E2001E02EA /* 004.jpg */; };
+		DC57632F1D0FF7E2001E02EA /* 005.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC57632A1D0FF7E2001E02EA /* 005.jpg */; };
+		DC5763311D100E7E001E02EA /* ScrollFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5763301D100E7E001E02EA /* ScrollFlowLayout.swift */; };
 		DCCA356B1D0F9FCC006013E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCA356A1D0F9FCC006013E8 /* AppDelegate.swift */; };
 		DCCA356D1D0F9FCC006013E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCA356C1D0F9FCC006013E8 /* ViewController.swift */; };
 		DCCA35701D0F9FCC006013E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCA356E1D0F9FCC006013E8 /* Main.storyboard */; };
@@ -14,6 +24,11 @@
 		DCCA35751D0F9FCC006013E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCA35731D0F9FCC006013E8 /* LaunchScreen.storyboard */; };
 		DCCA35801D0F9FCC006013E8 /* GA_CollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCA357F1D0F9FCC006013E8 /* GA_CollectionViewTests.swift */; };
 		DCCA358B1D0F9FCC006013E8 /* GA_CollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCA358A1D0F9FCC006013E8 /* GA_CollectionViewUITests.swift */; };
+		DCCA35991D0FA028006013E8 /* CustomFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCA35981D0FA028006013E8 /* CustomFlowLayout.swift */; };
+		DCCA359B1D0FA236006013E8 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCA359A1D0FA236006013E8 /* MyCell.swift */; };
+		DCCA359D1D0FA244006013E8 /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCCA359C1D0FA244006013E8 /* MyCell.xib */; };
+		DCFFBBA61D0FD40A0045EECE /* MyImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFFBBA51D0FD40A0045EECE /* MyImageCell.swift */; };
+		DCFFBBA81D0FD4140045EECE /* MyImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCFFBBA71D0FD4140045EECE /* MyImageCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +49,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC57631E1D0FDBD3001E02EA /* WaterFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterFlowLayout.swift; sourceTree = "<group>"; };
+		DC5763201D0FF676001E02EA /* InfinitLoopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfinitLoopViewController.swift; sourceTree = "<group>"; };
+		DC5763221D0FF6F0001E02EA /* ImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		DC5763241D0FF723001E02EA /* ImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
+		DC5763261D0FF7E1001E02EA /* 001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 001.jpg; sourceTree = "<group>"; };
+		DC5763271D0FF7E2001E02EA /* 002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 002.jpg; sourceTree = "<group>"; };
+		DC5763281D0FF7E2001E02EA /* 003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 003.jpg; sourceTree = "<group>"; };
+		DC5763291D0FF7E2001E02EA /* 004.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 004.jpg; sourceTree = "<group>"; };
+		DC57632A1D0FF7E2001E02EA /* 005.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 005.jpg; sourceTree = "<group>"; };
+		DC5763301D100E7E001E02EA /* ScrollFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollFlowLayout.swift; sourceTree = "<group>"; };
 		DCCA35671D0F9FCC006013E8 /* GA_CollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GA_CollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCCA356A1D0F9FCC006013E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCCA356C1D0F9FCC006013E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +72,11 @@
 		DCCA35861D0F9FCC006013E8 /* GA_CollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GA_CollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCCA358A1D0F9FCC006013E8 /* GA_CollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GA_CollectionViewUITests.swift; sourceTree = "<group>"; };
 		DCCA358C1D0F9FCC006013E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCCA35981D0FA028006013E8 /* CustomFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFlowLayout.swift; sourceTree = "<group>"; };
+		DCCA359A1D0FA236006013E8 /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		DCCA359C1D0FA244006013E8 /* MyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
+		DCFFBBA51D0FD40A0045EECE /* MyImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyImageCell.swift; sourceTree = "<group>"; };
+		DCFFBBA71D0FD4140045EECE /* MyImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyImageCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +129,21 @@
 			children = (
 				DCCA356A1D0F9FCC006013E8 /* AppDelegate.swift */,
 				DCCA356C1D0F9FCC006013E8 /* ViewController.swift */,
+				DC5763201D0FF676001E02EA /* InfinitLoopViewController.swift */,
+				DC5763301D100E7E001E02EA /* ScrollFlowLayout.swift */,
+				DCCA35981D0FA028006013E8 /* CustomFlowLayout.swift */,
+				DC57631E1D0FDBD3001E02EA /* WaterFlowLayout.swift */,
+				DCFFBBA51D0FD40A0045EECE /* MyImageCell.swift */,
+				DCFFBBA71D0FD4140045EECE /* MyImageCell.xib */,
+				DCCA359A1D0FA236006013E8 /* MyCell.swift */,
+				DCCA359C1D0FA244006013E8 /* MyCell.xib */,
+				DC5763221D0FF6F0001E02EA /* ImageCell.swift */,
+				DC5763241D0FF723001E02EA /* ImageCell.xib */,
+				DC5763261D0FF7E1001E02EA /* 001.jpg */,
+				DC5763271D0FF7E2001E02EA /* 002.jpg */,
+				DC5763281D0FF7E2001E02EA /* 003.jpg */,
+				DC5763291D0FF7E2001E02EA /* 004.jpg */,
+				DC57632A1D0FF7E2001E02EA /* 005.jpg */,
 				DCCA356E1D0F9FCC006013E8 /* Main.storyboard */,
 				DCCA35711D0F9FCC006013E8 /* Assets.xcassets */,
 				DCCA35731D0F9FCC006013E8 /* LaunchScreen.storyboard */,
@@ -229,8 +274,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC57632D1D0FF7E2001E02EA /* 003.jpg in Resources */,
+				DC57632C1D0FF7E2001E02EA /* 002.jpg in Resources */,
+				DCFFBBA81D0FD4140045EECE /* MyImageCell.xib in Resources */,
 				DCCA35751D0F9FCC006013E8 /* LaunchScreen.storyboard in Resources */,
+				DCCA359D1D0FA244006013E8 /* MyCell.xib in Resources */,
+				DC57632B1D0FF7E2001E02EA /* 001.jpg in Resources */,
+				DC57632E1D0FF7E2001E02EA /* 004.jpg in Resources */,
+				DC57632F1D0FF7E2001E02EA /* 005.jpg in Resources */,
 				DCCA35721D0F9FCC006013E8 /* Assets.xcassets in Resources */,
+				DC5763251D0FF723001E02EA /* ImageCell.xib in Resources */,
 				DCCA35701D0F9FCC006013E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +310,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCCA356D1D0F9FCC006013E8 /* ViewController.swift in Sources */,
+				DC57631F1D0FDBD3001E02EA /* WaterFlowLayout.swift in Sources */,
+				DCFFBBA61D0FD40A0045EECE /* MyImageCell.swift in Sources */,
+				DCCA359B1D0FA236006013E8 /* MyCell.swift in Sources */,
+				DCCA35991D0FA028006013E8 /* CustomFlowLayout.swift in Sources */,
+				DC5763231D0FF6F0001E02EA /* ImageCell.swift in Sources */,
+				DC5763311D100E7E001E02EA /* ScrollFlowLayout.swift in Sources */,
+				DC5763211D0FF676001E02EA /* InfinitLoopViewController.swift in Sources */,
 				DCCA356B1D0F9FCC006013E8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +542,7 @@
 				DCCA35911D0F9FCC006013E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCCA35921D0F9FCC006013E8 /* Build configuration list for PBXNativeTarget "GA_CollectionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +551,7 @@
 				DCCA35941D0F9FCC006013E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCCA35951D0F9FCC006013E8 /* Build configuration list for PBXNativeTarget "GA_CollectionViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +560,7 @@
 				DCCA35971D0F9FCC006013E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
